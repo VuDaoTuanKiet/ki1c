@@ -2,7 +2,7 @@
 #include<stdio.h>
 //#define int long long
 
-#define N 10000006
+#define N 1000005
 
 int b[N + 5];
 
@@ -40,9 +40,10 @@ int main()
     sang();
     int t;
     scanf("%d", &t);
-    int dem = 0;
+    
     while(t--)
     {
+        int dem = 0;
        int l,r;
        scanf("%d %d", &l, &r);
         
